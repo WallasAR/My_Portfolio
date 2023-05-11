@@ -1,0 +1,136 @@
+body{
+    font-family: 'Source Code Pro', monospace;
+    line-height: 1.6;
+    color: #777;
+    font-size: 20px;
+}
+
+a{
+    transition: color .2s linear, border .2s linear;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    color: rgb(202, 0, 0);
+}
+a:hover{
+    border-bottom-color: transparent;
+}
+
+p{
+    margin: 0px 0px 2em;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #787878;
+    font-weight: normal;
+    margin: 1em 1em;
+}
+
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 26px;
+}
+h4{
+    font-size: 22px;
+}
+h5{
+    font-size: 18px;
+}
+h6{
+    font-size: 15px;
+}
+
+blockquote{
+    border-left: 5px solid #efefef;
+    margin: 2em 0;
+    padding: 0.5em 0 0.5em 1.5em;
+}
+
+code{
+    background:#f7f7f7;
+    border-radius: .35em;
+    border: 2px solid #efefef;
+    font-size: .9em;
+    padding: 0.25em 0.65em;
+    font-family: 'courier New', monospace;
+    color: #929292;
+}
+
+pre code{
+    display: block;
+}
+
+ul, ol{
+    margin: 0;
+    padding: 0;
+    list-style-position: inside;
+    padding-left: 1.1em;
+
+}
+li{
+    padding-left: .5em;
+}
+
+.ul_alternate{
+    list-style-type: none;
+    padding-left: 0;
+}
+.ul_alternate li{
+    border-bottom: 2px solid #c0c0c0;
+    padding-left: 0;
+}
+.ul_alternate li:last-child{
+    border: 0;
+}
+.ul_icons{
+    list-style-type: none;
+    padding-left: 0;
+
+}
+.ul_icons li{
+    display: inline-block;
+    font-size: 3em;
+    color: rgb(241, 84, 84);
+}
+.main_header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    padding: 124px 54px 72px 54px;
+    box-sizing: border-box;
+    background-image: url(../Files/Img_Folders/overlay.png), url(../Files/Img_Folders/bg_gif_03.gif);
+    background-position: center left;
+    background-size: auto, cover;
+    text-align: right;
+}
+.main_header_title{
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, .5);
+}
+.main_header_title strong{
+    color: #ffff;
+    font-weight: normal;
+}
+.main_content{
+    width: 65%;
+    margin-left: 35%;
+    padding: 124px 54px 72px 54px;
+    box-sizing: border-box;
+}
+
+.row{
+    overflow: auto;
+}
+.col{
+    width: 50%;
+    float: left;
+
+}
