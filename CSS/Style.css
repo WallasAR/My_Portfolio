@@ -113,12 +113,17 @@ li{
     font-size: 32px;
     font-weight: normal;
     line-height: 1.5;
-    color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, 0.73);
 }
 .main_header_title strong{
     color: #ffff;
     font-weight: normal;
+    transition: color 0.7s linear;
 }
+.main_header_title strong:hover{
+    color: rgb(39, 255, 57);
+}
+
 .main_content{
     width: 65%;
     margin-left: 35%;
