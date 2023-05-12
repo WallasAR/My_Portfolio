@@ -149,9 +149,34 @@
                 
                 <pre> 
                     <code>
-    &lt;script&gt;
-        alert('oi');
-    &lt;/script&gt;
+import turtle
+
+turtle.pensize(8)
+                        
+def draw_heart_curve():
+    for i in range(200):
+        turtle.right(1)
+        turtle.forward(1)
+                            
+    turtle.color("pink", "pink")
+                        
+    turtle.begin_fill()
+                        
+    turtle.left(140)
+    turtle.forward(111.65)
+    draw_heart_curve()
+                    
+    turtle.left(120)
+    draw_heart_curve()
+    turtle.forward(111.65)
+                        
+    turtle.end_fill()
+                        
+    turtle.color('pink')
+                        
+                        
+    turtle.hideturtle()
+    turtle.done()                        
                     </code>
                 </pre>
                 
@@ -186,34 +211,40 @@
                         <h5>icons</h5>
 
                         <ul class="ul_icons">
-                            <li><i class="fab fa-twitter"></i></li>
+                            <li><i class="fab fa-instagram"></i></li>
                             <li><i class="fab   fa-facebook-square"></i></li>
+                            <li><i class="fab   fa-github"></i></li>
+                            <li><i class="fab   fa-discord"></i></li>
                         </ul>
                     </div>
 
-                <h5>Actions</h5>
+                <h4>Actions</h4>
 
-                <p>
-                    <a href="#" title="button" class="button_default">Default</a>
-                    <a href="#" title="button" class="button_default button_default_stroke">Default</a>
-                </p>
+                <div class="row">
+                    <div class="col">
+                        <p>
+                            <a href="#" title="button" class="button_default">Default</a>
+                            <a href="#" title="button" class="button_default button_default_stroke">Default</a>
+                        </p>
 
-                <p>
-                    <a href="#" title="button" class="button_default button_small">Default</a>
-                    <a href="#" title="button" class="button_default button_default_small button_default_stroke">Default</a>
-                </p>
+                        <p>
+                            <a href="#" title="button" class="button_default button_default_small">Default</a>
+                            <a href="#" title="button" class="button_default button_default_small button_default_stroke">Default</a>
+                        </p>
+                    </div>
+                    <div class="col">
 
-                <p>
-                    <a href="#" title="button" class="button_default button_full">Default</a>
-                    <a href="#" title="button" class="button_default button_default_full button_default_stroke">Default</a>
-                </p>
+                        <p>
+                            <a href="#" title="button" class="button_default button_default_full">Default</a>
+                            <a href="#" title="button" class="button_default button_default_full button_default_stroke">Default</a>
+                        </p>
 
-                <p>
-                    <a href="#" title="button" class="button_default button_full button_small">Default</a>
-                    <a href="#" title="button" class="button_default 
-                    button_default_full button_default_small button_default_stroke">Default</a>
-                </p>
-                
+                        <p>
+                            <a href="#" title="button" class="button_default button_default_full button_default_small">Default</a>
+                            <a href="#" title="button" class="button_default 
+                            button_default_full button_default_small button_default_stroke">Default</a>
+                        </p>
+                    </div>
                 <h4>Table</h4>
                 <h5>Default</h5>
 
@@ -270,7 +301,7 @@
 
                 <h5>Alternate</h5>
 
-                <table class="table_alternate">
+                <table class="table table_alternate">
 
                     <thead>
                         <tr>
@@ -322,27 +353,30 @@
                 </table>
 
                 <h5>Buttons</h5>
+                
 
-                <p>
-                    <button title="button" class="button_default">Default</button>
-                    <button title="button" class="button_default button_default_stroke">Default</button>
-                </p>
+                        <p>
+                            <button title="button" class="button_default">Default</button>
+                            <button title="button" class="button_default button_default_stroke">Default</button>
+                        </p>
 
-                <p>
-                    <button title="button" class="button_default button_small">Default</button>
-                    <button title="button" class="button_default button_default_small button_default_stroke">Default</button>
-                </p>
-
-                <p>
-                    <button title="button" class="button_default button_full">Default</button>
-                    <button title="button" class="button_default button_default_full button_default_stroke">Default</button>
-                </p>
-
-                <p>
-                    <button title="button" class="button_default button_full button_small">Default</button>
-                    <button title="button" class="button_default 
-                    button_default_full button_default_small button_default_stroke">Default</button>
-                </p>
+                        <p>
+                            <button title="button" class="button_default button_default_small">Default</button>
+                            <button title="button" class="button_default button_default_small button_default_stroke">Default</button>
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p>
+                            <button title="button" class="button_default button_default_full">Default</button>
+                            <button title="button" class="button_default button_default_full button_default_stroke">Default</button>
+                        </p>
+        
+                        <p>
+                            <button title="button" class="button_default button_default_full button_default_small">Default</button>
+                            <button title="button" class="button_default button_default_full button_default_small button_default_stroke">Default</button>
+                        </p>
+                    </div>
+                </div>
 
 
                 <h5>Forms</h5>

@@ -96,6 +96,63 @@ li{
     font-size: 3em;
     color: rgb(241, 84, 84);
 }
+
+.button_default{
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    border-radius: 5px;
+    font-size: .8em;
+    background-color: rgb(214, 63, 63);
+    border: 2px solid rgb(214, 63, 63);
+    color: #ffff;
+}
+
+.button_default_stroke{
+    color: inherit;
+    background-color: #fff;
+    border-color: #efefef;
+}
+
+.button_default_stroke:hover{
+    box-shadow: 0 0 5px rgb(255, 60, 60);
+}
+.button_default_small{
+    font-size: 0.65em;
+}
+.button_default_full{
+    display: block;
+    text-align: center;
+}
+
+.table{
+    width: 100%;
+    margin: 0 0 2em 0;
+    border-collapse: collapse;
+    text-align: left;
+}
+.table td{
+    padding: 0.75em;
+}
+.table th{
+    background: #e5e5e530;
+    padding: 0.75em;
+}
+.table tbody tr td{
+    border-bottom: 2px dotted #e0e0e0;
+}
+.table tbody tr:nth-child(even) td{
+    background-color: #c8c8c844;
+}
+.table tbody tr:first-child td{
+    border-top: 2px solid #c8c8c8;
+}
+.table tbody tr:last-child td{
+    border-bottom: 2px solid #c8c8c8;
+}
+.table_alternate tbody td, .table_alternate tbody tr:first-child td, .table_alternate tbody tr:last-child td{
+    border: 2px solid #c8c8c844;
+}
+
 .main_header{
     position: fixed;
     top: 0;
@@ -112,8 +169,8 @@ li{
 .main_header_title{
     font-size: 32px;
     font-weight: normal;
-    line-height: 1.5;
-    color: rgba(255, 255, 255, 0.73);
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.75);
 }
 .main_header_title strong{
     color: #ffff;
