@@ -118,12 +118,14 @@ input[type="radio"], input[type="checkbox"]{
     width: auto;
 }
 textarea{
-    height: 5em;
+    height: 8em;
 }
 .language{
-    max-width: 15%;
-    display: block;
-    margin-left: 80%;
+    max-width: 10%;
+    display: inline-block;
+    margin-left: 85%;
+    outline: none;
+    background-color: #c5c5c523;
 }
 .button_default{
     display: inline-block;
@@ -150,7 +152,6 @@ textarea{
 .button_default_stroke:hover{
     color: rgb(255, 60, 60);
     border-color:rgb(255, 60, 60);
-    text-shadow: 0 0 2px rgb(255, 60, 60);
     background-color: #fff;
 }
 .button_default_small{
