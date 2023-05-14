@@ -15,27 +15,33 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="CSS/Style.css">
-    </head>
 
+    <script type="text/JavaScript" src="Js/See_more.js"></script>
     <body>
         <header class="main_header">
             <a href="Index.html" class="main_header_link image_link">
                 <img src="Files/Img_Folders/avatar_W.jpg" alt="Foto de perfil">
             </a>
-            <h1 class="main_header_title">Tudo o que você precisa saber sobre <strong>Wallas Aguiar Rocha</strong> - seu estilo de vida, sua natureza,seus gostos...</h1>            
+            <h1 class="main_header_title">Tudo o que você precisa saber sobre <strong>Wallas Aguiar Rocha</strong> - seu estilo de vida, sua natureza, seus gostos...</h1>            
         </header>
         <main class="main_content">
+            <select class="language">
+                <option value="0">Pt-br</option>
+                <option value="1">En-US</option>
+            </select>
             <section class="main_content_section">
                 <h2>Quem sou eu?</h2>
-                <p>   Olá, me chamo Wallas Aguiar Rocha! Para os mais íntimos War. Estou na versão 1.9, Graças aos melhores desenvolvedores existentes: Gelza e Guilherme, gerei o meu mundo em 21 de setembro de 2003. <i>Spawnei</i> em Barras, pequena cidade localizada no <i>server</i> do Piauí. Bom, vivo como qualquer outra pessoa normal neste mundo, tenho meus objetivos e sonhos, além de ideais e características deveras peculiares. Odeio festas - aquelas que desafiam o princípio da impenetrabilidade da matéria, barulho exagerado e não-harmônico - sou o típico homem "caseiro" mas claro, gosto de sair com amigos e familiares pra um lugar agradável e calmo, de preferência que tenha comida. Por falar em comida, eu adoro! gosto muito do famoso prato brasileiro: arroz e feijão, que não falta um dia!</p>
-                <p>    Prosseguindo, um dos meus principais hobbies incluem jogar, tocar alguns instrumentos que tenho e fazer artes gráficas quando bate aquela inspiração. Ah! com relação a musica, tenho preferencia por rap, hip-hop, eletrônica, clássica, lo-fi, algumas internacionais antigas tipo <i>Careless Wisper</i> ou <i>What is Love</i> e algumas outras que sinceramente eu não sei definir o gênero delas, mas tem um ritmo calmo e uma letra suave - Já deu pra perceber que não gosto de "baderna" né? -. Normalmente eu escuto de acordo com a ocasião, por exemplo: gosto de estudar escutando músicas clássicas ou lo-fi misturados com som ambiente. Ademais, há uma musica que está em um lugarzinho especial no meu coração, se chama Air de Johan Sebastian Bach. Por algum motivo ela me traz um sentimento tão bom e único, com ela consigo sentir tristeza e felicidade, angustia e alivio e tantas outras coisas que não dá pra explicar com meras palavras. Profundo meu caro wallinhas.</p>
-                <p></p>
-                <a href="#" title="button" class="button_default button_default_stroke button_default_big">See more</a>
+                <p>Olá, me chamo Wallas Aguiar Rocha! Para os mais íntimos War. Estou na versão 1.9, Graças aos melhores desenvolvedores existentes: Gelza e Guilherme, gerei o meu mundo em 21 de setembro de 2003. <i>Spawnei</i> em Barras, pequena cidade localizada no <i>server</i> do Piauí. Bom, vivo como qualquer outra pessoa normal neste mundo. Tenho meus objetivos, sonhos, além de ideais e características deveras peculiares. Odeio festas - aquelas que desafiam o princípio da impenetrabilidade da matéria, barulho exagerado e não-harmônico - sou o típico homem "caseiro". Mas claro! gosto de sair com amigos e familiares pra um lugar agradável e calmo, de preferência que tenha comida. Por falar em comida, gosto de comer muita besteria, porém prezo pela minha saúde comendo mais coisas saudáveis.<span id="init"></span>
+                <span id="more"><br></br>
+                Prosseguindo, um dos meus principais hobbies incluem jogar, tocar alguns instrumentos que tenho e fazer artes gráficas quando bate aquela inspiração. Ah! com relação a musica, tenho preferencia por rap, hip-hop, eletrônica, clássica, lo-fi, phonk, soundtracks de games, algumas internacionais antigas tipo <a href="https://www.youtube.com/watch?v=izGwDsrQ1eQ" target="_blank"><i>Careless Wisper</i></a> ou <a href="https://www.youtube.com/watch?v=88asYNibX5c" target="_blank"><i>What is Love</i></a> e algumas outras que sinceramente não sei definir o gênero, mas tem um ritmo calmo e uma letra suave, ficou curioso(a)? Da uma olhadinha nesse <a href="https://www.youtube.com/watch?v=af4ITJ6FrfA" target="_blank">link</a>. Normalmente eu escuto de acordo com a ocasião, por exemplo: gosto de estudar escutando músicas clássicas ou lo-fi misturados com som ambiente. Ademais, há uma musica que está em um lugarzinho especial no meu coração, se chama <a href="https://www.youtube.com/watch?v=xDWG9SrB4io" target="_blank">Air</a> de <i>Johan Sebastian Bach</i>. Por algum motivo ela me traz um sentimento tão bom e único, com ela consigo sentir tristeza e felicidade, angustia e alivio e tantas outras coisas que não dá pra explicar com meras palavras.</span>
+                </p>
+                <button onclick="SeeMore()" class="button_default button_default_stroke button_default_big" id="more_button">Mais</button>
 
+            </head>
             </section>
 
             <section class="main_content_section">
-                <h3>Recent Works</h3>
+                <h3>Trabalhos recentes</h3>
 
                 <div class="row">
                     <div class="col">
@@ -87,26 +93,26 @@
                             <p class="recent_works_card_title"> Em construção...</p>
                             <p>Em breve!</p>
 
-                            <a href="#" title="See more" class="button_default button_default_stroke button_default_big">See Portifólio</a>
+                            <a href="#" title="See more" class="button_default button_default_stroke button_default_big">Ver mais trabalhos</a>
                         </article> 
                     </div>
                 </div>
             </section>
 
             <section class="main_content_section">
-                <h3>Get in touch</h3>
+                <h3>Contate-me!</h3>
                 <p></p>
 
                 <div class="row">
                     <div class="col_2">
-                        <form action="#" method="post">
+                        <form action="mailto:wallasarprofissional@gmail.com" method="post" enctype="text/plain">
                             <div class="row">
                                 <div class="col">
                                     <label for="Nome">Nome</label>
                                     <input type="text" name="nome" id="nome">
                                 </div>
                                 <div class="col">
-                                    <label for="email">Email</label>
+                                    <label for="email">Seu Email</label>
                                     <input type="text" name="email" id="email">
                                 </div>
                             </div>
@@ -428,7 +434,7 @@ def draw_heart_curve():
             <section class="Main_content_section">
 
                 <h3>Imagens</h3>
-
+                <div class="gallery">
                 <div class="gallery_img">
                     <img src="Files/Img_Folders/fulls/01.jpg" alt="">
                 </div>
@@ -444,14 +450,14 @@ def draw_heart_curve():
                     <img class="col_1"src="Files/Img_Folders/thumbs/02.jpg" alt="">
                     <img class="col_1"src="Files/Img_Folders/thumbs/01.jpg" alt="">
                 </div>
-
-                <h4>Left &amp; Right</h4>
+                </div>
+                <h3>Agradecimentos</h3>
 
                 <p>
-                    <img src="Files/Img_Folders/avatar_W.jpg" alt="" class="img_left"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a viverra augue, sit amet laoreet sapien. Aliquam et lorem ante. Duis placerat ante id diam dignissim, id egestas urna porttitor. Cras mattis dignissim felis vitae efficitur. Etiam nulla risus, varius sed fringilla vitae, efficitur id nibh. Duis tincidunt finibus risus ac tristique. In hac habitasse platea dictumst. Suspendisse nec mattis sem. Fusce cursus diam ac risus fringilla, sed imperdiet lorem elementum. In condimentum, sem eget suscipit pretium, dolor nunc fermentum ante, condimentum maximus purus justo sit amet mauris. Etiam egestas nibh a metus pharetra, in consequat enim convallis. Phasellus bibendum molestie metus, et dapibus tellus interdum ac.
+                    <img src="Files/Img_Folders/avatar_W.jpg" alt="" class="img_right"> Meus sinceros agradecimentos a todos que se interessaram em ler esse pequeno projeto, é muito importante par mim! Todo o esforço e dedicação que tive para a criação dessa página com certeza valeram a pena. Desde pequeno sempre fui apaixonado por tecnologia, as famosas Lan Houses me apresentaram essa magia no nosso mundo imperfeito. Eu simplesmente amo esse setor e com certeza serei o melhor no que faço.
                 </p>
                 <p>
-                    <img src="Files/Img_Folders/avatar_W.jpg" alt="" class="img_right"> Sed ipsum dolor, egestas a euismod nec, congue vel enim. Integer a velit pulvinar diam porta lobortis id quis eros. Integer id aliquam orci. Proin molestie eros eu diam porta, at ultrices massa consectetur. Vestibulum luctus, augue vel blandit congue, arcu lorem dapibus est, et viverra eros lacus sed elit. Mauris ut odio vitae nulla fermentum vestibulum vitae sit amet urna. Aenean vulputate ipsum vel vulputate semper. Vivamus diam quam, tempor sit amet nunc in, vulputate blandit sapien. Etiam commodo sit amet lorem ac lacinia. Nullam et velit tincidunt, auctor odio sit amet, vulputate elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                    <img src="Files/Img_Folders/avatar_W.jpg" alt="" class="img_left"> Obrigado mãe e pai por abrir tantas portas para mim, sem vocês eu não seria nada.
                 </p>
             </section>
         </main>

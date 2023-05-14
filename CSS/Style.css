@@ -120,7 +120,11 @@ input[type="radio"], input[type="checkbox"]{
 textarea{
     height: 5em;
 }
-
+.language{
+    max-width: 15%;
+    display: block;
+    margin-left: 80%;
+}
 .button_default{
     display: inline-block;
     padding: 0.75em 1.5em;
@@ -220,12 +224,18 @@ textarea{
 .main_header_title strong:hover{
     color: rgb(39, 255, 57);
 }
-
 .main_content{
     width: 65%;
     margin-left: 35%;
     padding: 124px 54px 72px 54px;
     box-sizing: border-box;
+}
+.img_right{
+    float: right;
+}
+.img_left{
+    float: left;
+    margin-right: 15px;
 }
 .main_header_link img{
     border-radius: 50%;
@@ -235,10 +245,14 @@ textarea{
     border-radius: 10px;
     overflow: hidden;
 }
+.gallery{
+    background-color: #b1b1b121;
+    padding: 1.5em;
+    border-radius: 1em;
+}
 
 .gallery_img img{
     width: 100%;
-
 }
 .gallery_thumb img, .gallery_img img{
     margin-bottom: 2%;
@@ -306,3 +320,6 @@ textarea{
 .col_2 + .col_1, .col_1 + .col_2{
     margin-left: 2%;
 } 
+#more{
+    display: none;
+}
