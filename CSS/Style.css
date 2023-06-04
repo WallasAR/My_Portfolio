@@ -126,6 +126,7 @@ textarea{
     margin-left: 85%;
     outline: none;
     background-color: #c5c5c523;
+    cursor: pointer;
 }
 .button_default{
     display: inline-block;
@@ -217,10 +218,12 @@ textarea{
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.75);
 }
+
 .main_header_title strong{
     color: #ffff;
     font-weight: normal;
     transition: color 0.7s linear;
+    cursor: default;
 }
 .main_header_title strong:hover{
     color: rgb(39, 255, 57);
@@ -231,6 +234,7 @@ textarea{
     padding: 124px 54px 72px 54px;
     box-sizing: border-box;
 }
+
 .img_right{
     float: right;
 }
