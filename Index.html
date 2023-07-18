@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-    <title></title>
+    <title>Portifólio</title>
     <meta charset="utf-8">
     <meta name="author" content="Wallas">
     <meta name="description" content="Portifólio">
     <meta name="keywords" content="Portifólio, Profile">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">-->
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +18,21 @@
     <link rel="stylesheet" href="CSS/Style.css">
 
     <script type="text/JavaScript" src="Js/See_more.js"></script>
+    
+    </head>
     <body>
         <header class="main_header">
+            <div class="Themebutton">
+                <input type="checkbox" class="checkbox" id="chk" />
+                <label class="label_cb" for="chk">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                  <div class="ball"></div>
+                </label>
+              </div>
+
+              <script type="text/JavaScript" src="Js/themes.js"></script>
+              
             <a href="Index.html" class="main_header_link image_link">
                 <img src="Files/Img_Folders/avatar_W.jpg" alt="Foto de perfil">
             </a>
@@ -34,13 +48,11 @@
                 <p>Olá, me chamo Wallas Aguiar Rocha! Para os mais íntimos War. Estou na versão 1.9, Graças aos melhores desenvolvedores existentes: Gelza e Guilherme, gerei o meu mundo em 21 de setembro de 2003. <i>Spawnei</i> em Barras, pequena cidade localizada no <i>server</i> do Piauí. Bom, vivo como qualquer outra pessoa normal neste mundo. Tenho meus objetivos, sonhos, além de ideais e características deveras peculiares. Odeio festas - aquelas que desafiam o princípio da impenetrabilidade da matéria, barulho exagerado e não-harmônico - sou o típico homem "caseiro". Mas claro! gosto de sair com amigos e familiares pra um lugar agradável e calmo, de preferência que tenha comida. Por falar em comida, gosto de comer muita besteria, porém prezo pela minha saúde comendo mais coisas saudáveis.<span id="init"></span>
                 <span id="more"><br></br>
 
-                Prosseguindo, um dos meus principais hobbies incluem jogar, tocar alguns instrumentos que tenho e fazer artes gráficas quando bate aquela inspiração. Ah! com relação a musica, tenho preferencia por rap, hip-hop, eletrônica, clássica, lo-fi, phonk, soundtracks de games, algumas internacionais antigas tipo<i>Careless Wisper</i> ou <i>What is Love</i> e algumas outras que sinceramente não sei definir o gênero, mas tem um ritmo calmo e uma letra suave, ficou curioso(a)? Da uma olhadinha nesse <a href="https://www.youtube.com/watch?v=af4ITJ6FrfA" target="_blank">link</a>. Normalmente eu escuto de acordo com a ocasião, por exemplo: gosto de estudar escutando músicas clássicas ou lo-fi misturados com som ambiente. Ademais, há uma musica que está em um lugarzinho especial no meu coração, se chama <a href="https://www.youtube.com/watch?v=xDWG9SrB4io" target="_blank">Air</a> de <i>Johan Sebastian Bach</i>. Por algum motivo ela me traz um sentimento tão bom e único, com ela consigo sentir tristeza e felicidade, angustia e alivio e tantas outras coisas que não dá pra explicar com meras palavras.<br></br>
+                Prosseguindo, um dos meus principais hobbies incluem jogar, tocar alguns instrumentos que tenho e fazer artes gráficas quando bate aquela inspiração. Ah! com relação a musica, tenho preferencia por rap, hip-hop, eletrônica, clássica, lo-fi, phonk, soundtracks de games, algumas internacionais antigas tipo<i>Careless Wisper</i> ou <i>What is Love</i> e algumas outras que sinceramente não sei definir o gênero, mas tem um ritmo calmo e uma letra suave, ficou curioso(a)? Da uma olhadinha nesse <a href="https://open.spotify.com/playlist/6UvoGq1Uv8LzvIdJrHlcjL?si=285fb9d0512a46c9" target="_blank">link</a>. Normalmente eu escuto de acordo com a ocasião, por exemplo: gosto de estudar escutando músicas clássicas ou lo-fi misturados com som ambiente. Ademais, há uma musica que está em um lugarzinho especial no meu coração, se chama <a href="https://www.youtube.com/watch?v=xDWG9SrB4io" target="_blank">Air</a> de <i>Johan Sebastian Bach</i>. Por algum motivo ela me traz um sentimento tão bom e único, com ela consigo sentir tristeza e felicidade, angustia e alivio e tantas outras coisas que não dá pra explicar com meras palavras.<br></br>
                 
                 Chega de tanto sentimentalismo! A parte de games é a que mais me interessa. Meus preferidos estão no famoso Playstation 2 (alguns que posso citar são: Downhill Domination, God Of War, Black, Midnight Club 3 e entre muitos outros), vale ressaltar que minhas franquias favoritas são de God of War, The Legend of Zelda. Não tem como eu falar sobe este assunto sem mencionar as lendas que eu acompanho desde a infância - Minecraft, 007 Goldeneye e Sonic. Parando para pensar um pouco, creio que realmente não da pra falar de todos aqui, ainda tem muito mais!</span>
                 </p>
-                <button onclick="SeeMore()" class="button_default button_default_stroke button_default_big" id="more_button">Mais</button>
-
-            </head>
+                <button onclick="SeeMore()" class="button_default button_default_dark button_default_stroke button_default_big" id="more_button">Mais</button>
             </section>
 
             <section class="main_content_section">
@@ -467,7 +479,7 @@ def draw_heart_curve():
             </section>
         </main>
         <footer class="main_footer">
-            <ul class="ul_icons_names"><li>WΔR#0847</li></ul>
+            <ul class="ul_icons_names"><li>war_ggez</li></ul>
             <ul class="ul_icons">
                 <li><a href="https://github.com/WallasAR" class="icon_link"><i class="fab fa-github"></i></a></li>
                 <li><a href="https://www.instagram.com/war_ggez/" class="icon_link"><i class="fab fa-instagram"></i></a></li>
