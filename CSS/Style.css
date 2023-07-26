@@ -4,14 +4,14 @@ body{
     color: #777;
     font-size: 20px;
     background-color: #fafafa;
-    transition: background 0.2s linear;
+    transition: background 0.1s ease-in-out;
 }
 
 a{
     transition: color .2s linear, border .2s linear;
     text-decoration: none;
     border-bottom: 1px dotted;
-    color: rgb(202, 0, 0);
+    color: #ca0000;
 }
 a:hover{
     border-bottom-color: transparent;
@@ -98,7 +98,7 @@ li{
 .ul_icons li{
     display: inline-block;
     font-size: 3em;
-    color: rgb(241, 84, 84);
+    color: #f15454;
 }
 input, label, textarea, select{
     display: inline-block;
@@ -114,7 +114,7 @@ input, textarea, select{
 }
 input:focus, textarea:focus{
     outline: none;
-    border: 2px solid rgb(255, 60, 60);
+    border: 2px solid #ff3c3c;
 }
 input[type="radio"], input[type="checkbox"]{
     width: auto;
@@ -251,9 +251,13 @@ textarea{
     border-radius: 50%;
     overflow: hidden;
 }
+a .recent_works_card_title{
+    color: #4c93a5;
+}
+
 .recent_works_card img{
     border-radius: 10px;
-    overflow: hidden;
+    overflow: hidden;  
 }
 .gallery{
     background-color: #b1b1b121;
@@ -353,6 +357,7 @@ body.dark{
 
 .dark .button_default{
     background: #22242d;
+    color: #c4c4c4;
 }
 
 .dark input{
@@ -367,6 +372,15 @@ body.dark{
 .dark code{
     background: #22242d;
     border: none;
+}
+.dark .language{
+    color: #fafafa;
+}
+.dark a{
+    color: #c75353;
+}
+.dark .icon_link{
+    color: #c8c8c8;
 }
 
 .checkbox {
